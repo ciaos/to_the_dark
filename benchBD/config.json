@@ -1,0 +1,22 @@
+{
+  "databases": {
+    "hologres": {
+      "host": "your-hologres-host",
+      "port": 80,
+      "database": "your_database",
+      "user": "your_username",
+      "password": "your_password"
+    },
+    "dws": {
+      "host": "your-dws-host",
+      "port": 8000,
+      "database": "your_database",
+      "user": "your_username",
+      "password": "your_password"
+    }
+  },
+  "test_settings": {
+    "concurrent_users": 5,
+    "test_iterations": 3
+  }
+}
